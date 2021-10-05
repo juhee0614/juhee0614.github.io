@@ -231,8 +231,8 @@ img {
 
 .paragraph-text {
   font-family: 'GowunDodum-Regular';
-  font-size: 18px;
-  font-size: 1rem;
+  font-size: 20px;
+  font-size: 1.2rem;
   margin: 30px auto;
   color: #404040;
 }
@@ -430,7 +430,7 @@ img {
 }
 
 #nav {
-  background-color: rgb(55, 120, 218);
+  background:url(https://cdn.pixabay.com/photo/2015/07/28/21/58/student-865073_960_720.jpg);
   background-repeat: repeat;
 }
 
