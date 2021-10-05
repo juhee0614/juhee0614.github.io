@@ -423,7 +423,7 @@ img {
 }
 
 #nav {
-  background: url(../images/background.png);
+  background-color: rgb(207, 207, 91);
   background-repeat: repeat;
 }
 
