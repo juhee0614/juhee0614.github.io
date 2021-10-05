@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'GowunDodum-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   min-width: 360px;
   font-family: 'PT Sans', sans-serif , 'GowunDodum-Regular';
@@ -423,7 +430,7 @@ img {
 }
 
 #nav {
-  background-color: rgb(207, 207, 91);
+  background-color: rgb(55, 120, 218);
   background-repeat: repeat;
 }
 
