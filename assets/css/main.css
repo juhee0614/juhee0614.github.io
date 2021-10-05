@@ -236,7 +236,10 @@ img {
   margin: 30px auto;
   color: #404040;
 }
-
+.about-text{
+  font-family: 'GowunDodum-Regular';
+  font-size: 1.2rem;
+}
 .paragraph-text-normal {
   font-family: 'PT Sans', sans-serif;
   color: #404040;
