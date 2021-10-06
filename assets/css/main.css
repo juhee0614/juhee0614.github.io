@@ -553,14 +553,14 @@ a {
   }
 
   .projects-wrapper {
-    display: -ms-grid;
+    /* display: -ms-grid;
     display: grid;
     -ms-grid-columns: auto;
         grid-template-columns: auto;
     grid-gap: 10px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center;
+            justify-content: center; */
   }
 }
 
