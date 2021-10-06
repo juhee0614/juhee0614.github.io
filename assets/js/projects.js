@@ -1,5 +1,5 @@
 $(document).ready(() => {
-    render_projects('featured');
+    render_projects('animore');
 })
 
 
@@ -17,8 +17,8 @@ let render_projects = (slug) => {
             demo: 'https://mporter.co',
             technologies: ['JAVA', 'JS', 'Oracle'],
             description: "Flask web application for easy reporting updates to one's mentor. Multi-user support, easy to deploy and use.",
-            categories: ['featured', 'webdev']
-        },
+            categories: ['animore']
+        }
         // {
         //     image: 'assets/images/mobile-landscape.jpg',
         //     link: 'https://github.com/abhn/Wall-E',
