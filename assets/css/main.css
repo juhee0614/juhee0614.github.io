@@ -213,7 +213,7 @@ img {
 }
 
 .section-wrapper:nth-child(odd) {
-  background: url(../images/background.png);
+  background-color: rgba(155, 146, 146, 0.993);
   background-repeat: repeat;
 }
 
@@ -292,7 +292,7 @@ img {
   color: #fff;
   font-family: 'PT Sans', Arial, Helvetica, sans-serif;
 
-  background: url(../images/background.png);
+  background-color:rgba(155, 146, 146, 0.993);
   background-repeat: repeat;
   background-attachment: fixed;
 }
@@ -548,8 +548,8 @@ a {
   }
   
   .projects-grid {
-    -ms-grid-columns: auto;
-        grid-template-columns: auto;
+    /* -ms-grid-columns: auto;
+        grid-template-columns: auto; */
   }
 
   .projects-wrapper {
