@@ -16,7 +16,7 @@ let render_projects = (slug) => {
             title: 'Animore',
             demo: 'https://mporter.co',
             technologies: ['JAVA', 'JS', 'Oracle'],
-            description: "Flask web application for easy reporting updates to one's mentor. Multi-user support, easy to deploy and use.",
+            description: "Spring Frame Work, Spring Boot를 활용하여 반려동물 통합정보 사이트를 만들었습니다. oracleDB는 JDBC를 통해 연동하였습니다. HTML,CSS,JS,Bootstrap를 기반으로 제작되었고, AJAX와 REST API를 활용하였습니다. 전체 홈디자인과 게시판 부분을 맡아 구현해내었습니다.",
             categories: ['animore']
         }
         // {
