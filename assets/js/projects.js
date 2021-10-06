@@ -11,7 +11,7 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
-            image: 'assets/images/animore.jpg',
+            image: 'assets/images/collage.jpg',
             link: 'https://github.com/juhee0614/animore',
             title: 'Animore',
             demo: 'https://mporter.co',
