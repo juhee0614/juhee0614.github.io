@@ -7,7 +7,7 @@
 
 body {
   min-width: 360px;
-  font-family: 'PT Sans', sans-serif , 'GowunDodum-Regular';
+  font-family: 'GowunDodum-Regular';
   font-size: 16px;
 }
 
@@ -87,7 +87,7 @@ img {
 }
 
 .head-punchline {
-  font-family: 'PT Sans', sans-serif , 'GowunDodum-Regular';
+  font-family: 'GowunDodum-Regular';
   text-align: center;
   color: #fff;
   margin-top: 10px;
@@ -200,7 +200,7 @@ img {
 .section-heading {
   text-align: center;
   margin-bottom: 30px;
-  font-family: 'PT Sans', sans-serif , 'GowunDodum-Regular';
+  font-family: 'GowunDodum-Regular';
   font-size: 40px;
   font-size: 2.5rem;
   color: #222;
@@ -208,7 +208,7 @@ img {
 }
 
 .nav-links {
-  font-family: 'PT Sans', sans-serif , 'GowunDodum-Regular';
+  font-family: 'GowunDodum-Regular';
   font-weight: bold;
 }
 
@@ -230,23 +230,23 @@ img {
 }
 
 .paragraph-text {
-  font-family: 'PT Sans', sans-serif , 'GowunDodum-Regular';
+  font-family: 'GowunDodum-Regular';
   font-size: 20px;
   font-size: 1rem;
   margin: 30px auto;
   color: #404040;
 }
 .about-text{
-  font-family: 'PT Sans', sans-serif , 'GowunDodum-Regular';
+  font-family: 'GowunDodum-Regular';
   font-size: 1.2rem;
 }
 .paragraph-text-normal {
-  font-family: 'PT Sans', sans-serif , 'GowunDodum-Regular';
+  font-family:  'GowunDodum-Regular';
   color: #404040;
 }
 
 .pt-sans-font {
-  font-family: 'PT Sans', sans-serif , 'GowunDodum-Regular';
+  font-family:  'GowunDodum-Regular';
 }
 
 .skill-grid-item {
@@ -290,7 +290,7 @@ img {
           align-items: center;
   min-height: 35px;
   color: #fff;
-  font-family: 'PT Sans', sans-serif , 'GowunDodum-Regular';
+  font-family: 'GowunDodum-Regular';
 
   background-color:rgba(155, 146, 146, 0.993);
   background-repeat: repeat;
@@ -318,7 +318,7 @@ img {
   font-weight: bold;
   font-size: 20px;
   font-size: 1.25rem;
-  font-family: 'PT Sans', sans-serif , 'GowunDodum-Regular';
+  font-family:  'GowunDodum-Regular';
   margin: 10px 0 20px;
   display: -webkit-box;
   display: -ms-flexbox;
