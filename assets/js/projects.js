@@ -190,11 +190,11 @@ let project_mapper = project => {
                     </article>
 
                                 
-                    // <div class="card__meta">
-                    //     ${project.technologies.map(tech =>
-                    //         `<span class="project-technology paragraph-text-normal">${tech}</span>`
-                    //     ).join('')}
-                    // </div>
+                    <div class="card__meta">
+                        ${project.technologies.map(tech =>
+                            `<span class="project-technology paragraph-text-normal">${tech}</span>`
+                        ).join('')}
+                    </div>
 
                 </div>
             </div>
