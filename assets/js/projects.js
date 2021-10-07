@@ -14,7 +14,7 @@ let render_projects = (slug) => {
             image: 'assets/images/collage.jpg',
             link: 'https://github.com/juhee0614/animore',
             title: 'Animore',
-            demo: 'https://mporter.co',
+            demo: 'https://youtu.be/x_zLGnJE2pI',
             technologies: ['JAVA', 'JS', 'Oracle'],
             description: "Spring Frame Work, Spring Boot를 활용하여 반려동물 통합정보 사이트를 만들었습니다. oracleDB는 JDBC를 통해 연동하였습니다. HTML,CSS,JS,Bootstrap를 기반으로 제작되었고, AJAX와 REST API를 활용하였습니다. 전체 홈디자인과 게시판 부분을 맡아 구현해내었습니다.",
             categories: ['animore']
@@ -186,15 +186,15 @@ let project_mapper = project => {
                     <article class="card__article">
                         <h2><a href="${project.link}">${project.title}</a></h2>
         
-                        <p class="paragraph-text-normal">${project.description} ${project.demo ? `<a href="${project.demo}">Demo</a>` : ''}</p>
+                        <p class="paragraph-text-normal">${project.description} ${project.demo ? `<a href="${project.demo}">시연영상</a>` : ''}</p>
                     </article>
 
                                 
-                    <div class="card__meta">
-                        ${project.technologies.map(tech =>
-                            `<span class="project-technology paragraph-text-normal">${tech}</span>`
-                        ).join('')}
-                    </div>
+                    // <div class="card__meta">
+                    //     ${project.technologies.map(tech =>
+                    //         `<span class="project-technology paragraph-text-normal">${tech}</span>`
+                    //     ).join('')}
+                    // </div>
 
                 </div>
             </div>

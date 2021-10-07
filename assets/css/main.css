@@ -243,6 +243,8 @@ img {
 .paragraph-text-normal {
   font-family:  'GowunDodum-Regular';
   color: #404040;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .pt-sans-font {
