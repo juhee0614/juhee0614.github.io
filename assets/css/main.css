@@ -187,8 +187,12 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
 .extra-section{
   min-height: 10vh;
+}
+.about-section{
+  min-height: 70vh;
 }
 .section.skills > div {
   width: 100%;
