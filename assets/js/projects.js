@@ -175,7 +175,7 @@ let project_mapper = project => {
 
                 ${project.image ? 
                     `<div class="card__image border-tlr-radius">
-                        <a href="${project.link}">
+                        <a href="${project.link}"  target='_blank'>
                             <img src="${project.image}" alt="image" id="project-image" class="border-tlr-radius">
                         </a>
                     </div>`           
@@ -185,10 +185,10 @@ let project_mapper = project => {
                 <div class="card__content card__padding">
         
                     <article class="card__article">
-                        <h2><a href="${project.link}">${project.title}</a></h2>
-                        <p>${project.link ? `<a class="project-demo-url" href="${project.link}">구현소스</a>` : ''}
-                        ${project.demo ? `<a class="project-demo-url" href="${project.demo}">시연영상</a>` : ''}
-                        ${project.ppt ? `<a class="project-demo-url" href="assets/images/animore_juheeKIM.pdf">산출물</a>` : ''}
+                        <h2><a href="${project.link}"  target='_blank'>${project.title}</a></h2>
+                        <p>${project.link ? `<a class="project-demo-url" href="${project.link}"  target='_blank'>구현소스</a>` : ''}
+                        ${project.demo ? `<a class="project-demo-url" href="${project.demo}"  target='_blank'>시연영상</a>` : ''}
+                        ${project.ppt ? `<a class="project-demo-url" href="assets/images/animore_juheeKIM.pdf"  target='_blank'>산출물</a>` : ''}
                         </p>
                         <p class="paragraph-text-normal ">${project.description} </p>
                     </article>
