@@ -186,11 +186,11 @@ let project_mapper = project => {
         
                     <article class="card__article">
                         <h2><a href="${project.link}">${project.title}</a></h2>
-        
-                        <p class="paragraph-text-normal ">${project.link ? `<a class="project-demo-url" href="${project.link}">Repository</a>` : ''}
-                                                        ${project.description} <br><br>${project.demo ? `<a class="project-demo-url" href="${project.demo}">시연영상</a>` : ''}
-                                                        ${project.ppt ? `<a class="project-demo-url" href="assets/images/animore_juheeKIM.pdf">산출물</a>` : ''}
-                                                        </p>
+                        <p>${project.link ? `<a class="project-demo-url" href="${project.link}">구현소스</a>` : ''}
+                        ${project.demo ? `<a class="project-demo-url" href="${project.demo}">시연영상</a>` : ''}
+                        ${project.ppt ? `<a class="project-demo-url" href="assets/images/animore_juheeKIM.pdf">산출물</a>` : ''}
+                        </p>
+                        <p class="paragraph-text-normal ">${project.description} </p>
                     </article>
 
                                 
