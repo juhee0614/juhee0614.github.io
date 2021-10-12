@@ -255,6 +255,7 @@ img {
   color: #404040;
   font-weight: bold;
   text-decoration: underline;
+  padding: 3px 5px;
 }
 
 .pt-sans-font {
