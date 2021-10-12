@@ -4,7 +4,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 body {
   min-width: 360px;
   font-family: 'GowunDodum-Regular';
@@ -486,6 +485,7 @@ a {
 }
 
 .project-demo-url {
+  font-family:  'GowunDodum-Regular';
   border: 1px solid #222;
   border-radius: 2px;
   margin: 0 5px;
