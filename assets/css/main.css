@@ -250,7 +250,7 @@ img {
   font-family:  'GowunDodum-Regular';
   color: #404040;
 }
-.project-demo-url {
+.project-technology {
   font-family:  'GowunDodum-Regular';
   color: #404040;
   font-weight: bold;
@@ -485,7 +485,7 @@ a {
   width: 100%;
 }
 
-.project-technology {
+.project-demo-url {
   border: 1px solid #222;
   border-radius: 2px;
   margin: 0 5px;
