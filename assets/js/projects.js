@@ -188,7 +188,7 @@ let project_mapper = project => {
                         <h2><a href="${project.link}">${project.title}</a></h2>
         
                         <p class="paragraph-text-normal ">${project.description} <br><br>${project.demo ? `<a class="project-demo-url" href="${project.demo}">시연영상</a>` : ''}
-                                                        ${project.ppt ? `<a class="project-demo-url" href="${project.ppt}">PDF</a>` : ''}</p>
+                                                        ${project.ppt ? `<a class="project-demo-url" href="assets/images/animore_juheeKIM">PDF</a>` : ''}</p>
                     </article>
 
                                 
